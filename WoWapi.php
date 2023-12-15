@@ -2,7 +2,7 @@
 
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
-include "Control/database.php";
+include "database.php";
 global $db;
 
 $sql = "SELECT * FROM pvp_gear_sets";
